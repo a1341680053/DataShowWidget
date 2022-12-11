@@ -15,6 +15,7 @@ DataShowWidget::DataShowWidget(QWidget* parent)
 
 DataShowWidget::~DataShowWidget()
 {
+	delete mpTrayIcon;
 }
 
 void DataShowWidget::init()
